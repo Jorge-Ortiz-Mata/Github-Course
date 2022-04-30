@@ -22,6 +22,13 @@ When you are working in a specific project using git, you will be doing your wor
 
 This is very useful because you can add all the code you need without affecting the original one. Many people can be working in the same project with all the same features. You can test your code to see if it’s working well before to merge it with the main branch.
 
+You can push your changes in a different branch from the master branch to the main project repo (git push -u origin namebranch).
+
+### Pull-request.
+
+The pull request is a request to pull your code into another branch. There are two ways in order to make a pull-request. One is by going to Github repo website or localy. 
+Probably, you will be editing the same file as other programmer and the conflicts could be appear.
+
 ##	Git commands.
 
 * git init. Initialize git within the directory.
@@ -54,8 +61,10 @@ This is very useful because you can add all the code you need without affecting 
 
 * git checkout -b namebranch. It creates a feature branch and it takes you to this new branch created.
 
-* git pull. It downloads the changes from a remote repo to your local machine.
+* git diff. It shows you the changes that your have made (git diff namebranch).
 
-##	Common files.
+* git pull. It downloads the changes from a remote repo to your local machine. This is helpul if you make changes online and have them in your local enviroment.
 
-README.md: This file is created to write all the project information.
+##	Notes.
+
+1. README.md: This file is created to write all the project information.
