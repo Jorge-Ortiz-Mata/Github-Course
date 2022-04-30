@@ -29,6 +29,12 @@ You can push your changes in a different branch from the master branch to the ma
 The pull request is a request to pull your code into another branch. There are two ways in order to make a pull-request. One is by going to Github repo website or localy. 
 Probably, you will be editing the same file as other programmer and the conflicts could be appear.
 
+You can solve those conflicts by deleting or changing the files that are in conflict.
+
+### Undo-commit.
+
+You can get back to latest commit in order to undo the changes or the commit made.
+
 ##	Git commands.
 
 * git init. Initialize git within the directory.
@@ -64,6 +70,8 @@ Probably, you will be editing the same file as other programmer and the conflict
 * git diff. It shows you the changes that your have made (git diff namebranch).
 
 * git pull. It downloads the changes from a remote repo to your local machine. This is helpul if you make changes online and have them in your local enviroment.
+
+* git reset. It resets the commit where you were working on.
 
 ##	Notes.
 
