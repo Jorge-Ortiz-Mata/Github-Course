@@ -33,7 +33,7 @@ You can solve those conflicts by deleting or changing the files that are in conf
 
 ### Undo-commit.
 
-You can get back to latest commit in order to undo the changes or the commit made.
+You can get back to latest commit in order to undo the changes or the commit made. Once you have add the new changes by typing git add . command, the files change to stage status (green status) and that means that you have already add them to git, but you can unstage that status by typing the git reset command.
 
 ##	Git commands.
 
