@@ -45,13 +45,15 @@ You can get back to latest commit in order to undo the changes or the commit mad
 
 * git add. It adds all the changes that you did in your files (git add . || git add name.txt).
 
+* git commit. Save your files in Git. Command -m means message (git commit -m “New commit”). You can add a title and a message on each commit by adding an extra -m “” at the end of the command line.
+
+* git commit -am. It's a shortcut for git add and git commit. YOu can use this command once the file was added to git. 
+
 * git log. Once you use this command, you will see all the commits that you made.
 
 * git remote. You can set the repo’s link in order to upload your project to github (git remote add origin https://url.com
 
 * git remote -v. It displays all the repo that are connected to this project.
-
-* git commit. Save your files in Git. Command -m means message (git commit -m “New commit”). You can add a title and a message on each commit by adding an extra -m “” at the end of the command line.
 
 * git push. Upload all the git commits made to a remote repo. You can define a default origin by adding -u when you declare your first commit (git push -u origin master). 
 
