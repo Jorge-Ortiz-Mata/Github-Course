@@ -75,6 +75,12 @@ You can get back to latest commit in order to undo the changes or the commit mad
 
 * git reset. It resets the commit where you were working on.
 
+* git reset HEAD~1. It takes you to the latest commit further.
+
+* git reset XX53X. This command take you back to an specific commit. You have to type the hash value.
+
+* git reset --hard ZXXFW. If you want to delete all the changes and lines that you wrote in your code before making the commit action, use this command in order to restore each file.
+
 ##	Notes.
 
 1. README.md: This file is created to write all the project information.
