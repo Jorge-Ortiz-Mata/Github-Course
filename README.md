@@ -84,3 +84,10 @@ You can have a copy from another repository in your github account by forking th
 * git reset XX53X. This command take you back to an specific commit. You have to type the hash value.
 
 * git reset --hard ZXXFW. If you want to delete all the changes and lines that you wrote in your code before making the commit action, use this command in order to restore each file.
+
+## Author.
+
+* Jorge Ortiz.
+* Software engineer at Icalia Labs.
+* San Luis Potosí S.L.P. México.
+* +52 (444) 576 3034.
